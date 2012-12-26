@@ -13,7 +13,8 @@ filetype plugin indent on
 set encoding=utf-8
 set ruler
 set title
-
+" ctrl+N twice to display line numbers
+:nmap <C-N><C-N> :set invnumber<CR>
 
 " Indentation
 set autoindent
