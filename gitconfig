@@ -1,0 +1,11 @@
+[user]
+  name = Saagar Deshpande
+  email = raysaagar@gmail.com
+
+[alias]
+  br = branch
+  co = checkout
+  l = log
+  lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+  s = status
+  cam = commit -am
