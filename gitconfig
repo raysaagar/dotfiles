@@ -9,3 +9,10 @@
   lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
   s = status
   cam = commit -am
+
+[color]
+  ui = auto
+[color "status"]
+  added = yellow bold
+  changed = green
+  untracked = red
