@@ -1,6 +1,8 @@
 [user]
-  name = Saagar Deshpande
+  name = Saagar Milind Deshpande
   email = raysaagar@gmail.com
+  email = sdeshpande@college.harvard.edu
+  email = saagar@hcs.harvard.edu
 
 [alias]
   br = branch
@@ -11,8 +13,10 @@
   cam = commit -am
   sur = submodule update --recursive
   sfp = submodule foreach git pull origin master
+
 [color]
   ui = auto
+
 [color "status"]
   added = yellow bold
   changed = green
