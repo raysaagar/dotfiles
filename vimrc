@@ -27,6 +27,9 @@ set tabstop=2
 
 set smartindent
 
+" Vim Behaviors
+set autoread " auto reload files if updated
+
 " Colors
 set t_Co=256
 set background=dark
