@@ -29,6 +29,7 @@ set smartindent
 
 " Vim Behaviors
 set autoread " auto reload files if updated
+set hlsearch " search highlighting
 
 " Colors
 set t_Co=256
