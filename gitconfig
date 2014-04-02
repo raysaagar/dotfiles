@@ -1,8 +1,11 @@
 [user]
-  name = Saagar Milind Deshpande
+	name = Saagar Deshpande
   email = raysaagar@gmail.com
-  email = sdeshpande@college.harvard.edu
   email = saagar@hcs.harvard.edu
+	email = --add
+	email = --add
+	email = --replace-all
+	email = --replace-all
 
 [alias]
   br = branch
