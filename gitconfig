@@ -2,10 +2,7 @@
 	name = Saagar Deshpande
   email = raysaagar@gmail.com
   email = saagar@hcs.harvard.edu
-	email = --add
-	email = --add
-	email = --replace-all
-	email = --replace-all
+  email = sdeshpande@college.harvard.edu
 
 [alias]
   br = branch
