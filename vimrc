@@ -42,5 +42,5 @@ colorscheme dante
 map <silent> ,/ :let @/=""<CR>
 " ctrl+N twice to display line numbers
 :nmap <C-N><C-N> :set invnumber<CR>
-
-
+" NERDTree
+map <Leader>n :NERDTreeFind<CR>

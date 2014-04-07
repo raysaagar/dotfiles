@@ -16,3 +16,7 @@ do
         echo "Symlink to $f already exists!"
     fi
 done
+
+# install git submodules
+git submodule init
+git submodule update
