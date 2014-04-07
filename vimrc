@@ -60,3 +60,5 @@ map <silent> ,/ :let @/=""<CR>
 :nmap <C-N><C-N> :set invnumber<CR>
 " clear whitespace with \+r
 map <Leader>r :%s/\s\+$//<CR>:nohl<CR>
+" F2 to toggle paste mode
+set pastetoggle=<F2>
