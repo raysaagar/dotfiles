@@ -13,6 +13,7 @@
   cam = commit -am
   sur = submodule update --recursive
   sfp = submodule foreach git pull origin master
+  subpull = pull --recurse-submodules
 
 [color]
   ui = auto
