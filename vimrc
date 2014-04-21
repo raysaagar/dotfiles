@@ -35,11 +35,17 @@ set smartindent
 set autoread " auto reload files if updated
 set hlsearch " search highlighting
 
+" Treat json files as javascript syntax
+autocmd BufNewFile,BufRead *.json set ft=javascript
+" AWS template files are pretty much json.
+autocmd BufNewFile,BufRead *.template set ft=javascript
+
 " Colors
 set t_Co=256
-set background=dark
 "colorscheme solarized
 colorscheme dante
+" explicit set for indent guides
+set background=dark
 
 " show trailing whitespace and tabs
 set list
@@ -50,6 +56,9 @@ let g:NERDTreeWinPos = 'right'
 let g:NERDTreeDirArrows=1 " Arrow symbols to directories
 " NERDTree uses \+n for toggle
 map <Leader>n :NERDTreeToggle<CR>
+" indent guides size
+let g:indent_guides_guide_size = 1
+
 
 " MAPPINGS
 " Note: Use <CR> to simulate the enter key
