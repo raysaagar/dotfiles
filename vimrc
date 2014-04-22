@@ -34,6 +34,7 @@ set smartindent
 " Vim Behaviors
 set autoread " auto reload files if updated
 set hlsearch " search highlighting
+set splitright " open new vsplits on the right
 
 " Treat json files as javascript syntax
 autocmd BufNewFile,BufRead *.json set ft=javascript
